@@ -1,0 +1,171 @@
+body {
+    background-color: #ece8e1;
+}
+
+.header {
+    display: flex;
+    justify-content: left;
+}
+
+.logo {
+    margin: 10px;
+    width: 125px;
+    height: 125px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.subtitle {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.paragraph-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ff4655;
+}
+
+.paragraph1 {
+    font-size: 20px;
+    text-align: justify;
+    background-color: #ff4655;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px, 10px, 20px, 10px;
+}
+
+.paragraph2 {
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    background-color: #ff4655;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px, 10px, 20px, 10px;
+}
+
+.paragraph3 {
+    font-size: 20px;
+    text-align: justify;
+    background-color: #ff4655;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px, 10px, 20px, 10px;
+}
+
+.paragraph4 {
+    font-size: 20px;
+    text-align: justify;
+    color: white;
+    background-color: #ff4655;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px, 10px, 20px, 10px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box0 {
+    width: 500px;
+    height: 250px;
+    background: #ff4655;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+}
+
+.box0 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box1 {
+    width: 500px;
+    height: 250px;
+    background: #ff4655;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box2 {
+    width: 500px;
+    height: 250px;
+    background: #ff4655;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+}
+
+.box2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box3 {
+    width: 500px;
+    height: 250px;
+    background: #ff4655;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+}
+
+.box3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: black;
+    color: gray;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footlogo {
+    width: 100px;
+    height: 100px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.link a {
+    color: white;
+}
